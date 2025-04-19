@@ -1,0 +1,37 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+#weather {
+  padding: 50px 0;
+}
+#weather .data, #weather input, #weather #btn {
+  border-radius: 15px;
+}
+#weather .data {
+  text-align: center;
+  width: 250px;
+  background-color: #a4caff;
+  padding: 30px;
+}
+#weather .data h1, #weather .data h2 {
+  margin-bottom: 25px;
+  color: white;
+  font-size: 24px;
+}
+#weather .data input {
+  width: 150px;
+  margin-bottom: 30px;
+  padding: 6px 15px;
+}
+#weather .data .minibox {
+  display: flex;
+  justify-content: center;
+}
+#weather .data .minibox #btn {
+  background-color: #79afff;
+  color: white;
+  padding: 9px;
+  width: 120px;
+}/*# sourceMappingURL=style.css.map */
